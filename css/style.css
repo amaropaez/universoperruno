@@ -1,26 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
+@media only screen and (min-width: 768px) {
+    .body {
 
-body {
-    width: 1220px;
-    height: 600px;
-    border: thistle;
-    position: center;
-
+        border: thistle;
+        position: center;
+    }
 }
 
-header {
-    background-color: rgb(255, 252, 252);
-    background-image: url("../img/universoperruno.jpeg");
-    background-repeat: no-repeat;
-    background-position: inherit;
-    background-size: 10rem;
-    padding: 15px;
-
-}
 
 header ul {
     list-style: none;
@@ -57,8 +47,8 @@ main h1 {
     text-align: center;
 }
 
-main h2{
-    text-align:left;
+main h2 {
+    text-align: left;
     font-size: 1.5rem;
 }
 
@@ -68,12 +58,22 @@ iframe {
 }
 
 .flex-container {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
 }
 
 .tituloDestacado {
-    
+
     text-align: center;
     font-size: 3rem;
+}
+
+main {
+    text-decoration: dashed;
+    text-align: justify;
+    font-size: 1.5rem;
+    color: rgb(16, 18, 24);
+    background-image: url("../img/imagendefondoengrises.jpg");
+    background-repeat: repeat;
+    background-color: rgb(241, 235, 235);
 }
