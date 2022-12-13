@@ -37,7 +37,7 @@ border h1 {
 main {
     text-decoration: dashed;
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: rgb(16, 18, 24);
     background-image: url("../img/imagendefondoengrises.jpg");
     background-repeat: repeat;
@@ -67,18 +67,9 @@ iframe {
 .tituloDestacado {
 
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
-main {
-    text-decoration: dashed;
-    text-align: justify;
-    font-size: 1.5rem;
-    color: rgb(16, 18, 24);
-    background-image: url("../img/imagendefondoengrises.jpg");
-    background-repeat: repeat;
-    background-color: rgb(241, 235, 235);
-}
 
 body {
     justify-content: center;
@@ -97,8 +88,3 @@ body {
     background: linear-gradient(0deg, rgba(184, 211, 212, 1) 0%, rgba(159, 167, 213, 1) 66%);
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 400px);
-    grid-template-rows: repeat(3, 300px);
-}
