@@ -3,70 +3,65 @@ body {
     align-items: center;
 
 
-header {
+    header {
 
-    .menu {
-        background: white;
+        .menu {
+            background: white;
 
+        }
+
+        .btn-menu {
+            color: black;
+            font-size: 50px;
+
+        }
+
+        .nav-link {
+            color: black;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+        }
+
+
+        border h1 {
+            color: rgb(10, 92, 163);
+            font-style: italic;
+            font-weight: bolder;
+            text-align: center;
+            text-decoration: solid;
+        }
+
+        main {
+            text-decoration: dashed;
+            text-align: justify;
+            font-size: 1.3rem;
+            color: rgb(16, 18, 24);
+            background-image: url("../img/imagendefondoengrises.jpg");
+            background-repeat: repeat;
+            background-color: rgb(241, 235, 235);
+
+            h1 {
+                text-align: center;
+            }
+
+            h2 {
+                text-align: left;
+                font-size: 1.5rem;
+            }
+
+
+            table {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        iframe {
+            width: 1280px;
+            height: 600px;
+        }
     }
-
-    .btn-menu {
-        color: black;
-        font-size: 50px;
-
-    }
-
-    .nav-link {
-        color: black;
-    }
-
-    .logo {
-        width: 50px;
-        height: 50px;
-    }
-
-
-
 }
-
-border h1 {
-    color: rgb(10, 92, 163);
-    font-style: italic;
-    font-weight: bolder;
-    text-align: center;
-    text-decoration: solid;
-}
-
-main {
-    text-decoration: dashed;
-    text-align: justify;
-    font-size: 1.3rem;
-    color: rgb(16, 18, 24);
-    background-image: url("../img/imagendefondoengrises.jpg");
-    background-repeat: repeat;
-    background-color: rgb(241, 235, 235);
-
-    h1 {
-        text-align: center;
-    }
-
-    h2 {
-        text-align: left;
-        font-size: 1.5rem;
-    }
-
-
-    table {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-iframe {
-    width: 1280px;
-    height: 600px;
-}
-
-
-}
-
