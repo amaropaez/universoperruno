@@ -1,90 +1,20 @@
-body {
-  justify-content: center;
-  align-items: center;
+header div {
+  background-color: white;
 }
-body header .menu {
-  background: white;
+header div ul {
+  list-style: none;
 }
-body header .btn-menu {
+header div ul li {
+  width: fit-content;
+  padding: 15px;
+  display: inline-block;
+  background-position: right;
+  top: 1px;
+  left: 500px;
+}
+header div ul li a {
+  text-decoration: none;
   color: black;
-  font-size: 50px;
-}
-body header .nav-link {
-  color: black;
-}
-body header .logo {
-  width: 50px;
-  height: 50px;
-}
-body header border h1 {
-  color: rgb(10, 92, 163);
-  font-style: italic;
-  font-weight: bolder;
-  text-align: center;
-  text-decoration: solid;
-}
-body header main {
-  text-decoration: dashed;
-  text-align: justify;
-  font-size: 1.3rem;
-  color: rgb(16, 18, 24);
-  background-image: url("../img/imagendefondoengrises.jpg");
-  background-repeat: repeat;
-  background-color: rgb(241, 235, 235);
-}
-body header main h1 {
-  text-align: center;
-}
-body header main h2 {
-  text-align: left;
-  font-size: 1.5rem;
-}
-body header main table {
-  display: flex;
-  flex-direction: column;
-}
-body header iframe {
-  width: 1280px;
-  height: 600px;
-}
-
-body {
-  justify-content: center;
-  align-items: center;
-}
-body header .menu {
-  background: white;
-}
-body header .btn-menu {
-  color: black;
-  font-size: 50px;
-}
-body header .nav-link {
-  color: black;
-}
-body header .logo {
-  width: 50px;
-  height: 50px;
-}
-body main {
-  text-decoration: dashed;
-  text-align: justify;
-  font-size: 1rem;
-  color: rgb(16, 18, 24);
-  background-image: url("../img/imagendefondoengrises.jpg");
-  background-repeat: repeat;
-  background-color: rgb(241, 235, 235);
-}
-body h1 {
-  text-align: center;
-}
-body h2 {
-  text-align: left;
-  font-size: 1.5rem;
-}
-body h3 {
-  text-align: left;
-  font-size: 1rem;
 }
 
 * {
