@@ -2,6 +2,22 @@ body {
     justify-content: center;
     align-items: center;
 
+    iframe {
+        width: 1280px;
+        height: 600px;
+    }
+
+    @media screen and (max-width: 980px){
+        #contenedor{
+            width: 90%;
+        }
+        #contenido{
+            width: 60%;
+        }
+        #barra_lateral{
+            width:30%;
+        }
+    }
 
     header {
 
@@ -53,11 +69,6 @@ body {
 
             }
         }
-
-
-        iframe {
-            width: 1280px;
-            height: 600px;
-        }
+        
     }
 }

@@ -2,6 +2,21 @@ body {
   justify-content: center;
   align-items: center;
 }
+body iframe {
+  width: 1280px;
+  height: 600px;
+}
+@media screen and (max-width: 980px) {
+  body #contenedor {
+    width: 90%;
+  }
+  body #contenido {
+    width: 60%;
+  }
+  body #barra_lateral {
+    width: 30%;
+  }
+}
 body header .menu {
   background: white;
 }
@@ -35,10 +50,6 @@ body main p h2 {
   color: black;
   text-align: left;
   font-size: 1.5rem;
-}
-body main iframe {
-  width: 1280px;
-  height: 600px;
 }
 
 * {
