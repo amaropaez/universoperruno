@@ -1,0 +1,74 @@
+body {
+    justify-content: center;
+    align-items: center;
+
+    iframe {
+        width: 1280px;
+        height: 600px;
+    }
+
+    @media screen and (max-width: 980px){
+        #contenedor{
+            width: 90%;
+        }
+        #contenido{
+            width: 60%;
+        }
+        #barra_lateral{
+            width:30%;
+        }
+    }
+
+    header {
+
+
+        .menu {
+            background: white;
+
+        }
+
+        .btn-menu {
+            color: black;
+            font-size: 60px;
+            background-position: right;
+
+        }
+
+        .nav-link {
+            color: black;
+
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+        }
+
+    }
+
+    main {
+        text-decoration: dashed;
+        text-align: justify;
+        font-size: 1.3rem;
+        color: rgb(16, 18, 24);
+        background-color: #f4d9e1;
+
+        p {
+            h1 {
+                color: black;
+                border-top-color: #ed80a1;
+                font-style: italic;
+                font-weight: bolder;
+                text-align: center;
+            }
+
+            h2 {
+                color: black;
+                text-align: left;
+                font-size: 1.5rem;
+
+            }
+        }
+        
+    }
+}

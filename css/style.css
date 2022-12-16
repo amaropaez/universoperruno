@@ -52,6 +52,222 @@ body main p h2 {
   font-size: 1.5rem;
 }
 
+body {
+  justify-content: center;
+  align-items: center;
+}
+body iframe {
+  width: 1280px;
+  height: 600px;
+}
+@media screen and (max-width: 980px) {
+  body #contenedor {
+    width: 90%;
+  }
+  body #contenido {
+    width: 60%;
+  }
+  body #barra_lateral {
+    width: 30%;
+  }
+}
+body header .menu {
+  background: white;
+}
+body header .btn-menu {
+  color: black;
+  font-size: 60px;
+  background-position: right;
+}
+body header .nav-link {
+  color: black;
+}
+body header .logo {
+  width: 50px;
+  height: 50px;
+}
+body main {
+  text-decoration: dashed;
+  text-align: justify;
+  font-size: 1.3rem;
+  color: rgb(16, 18, 24);
+  background-color: #f4d9e1;
+}
+body main p h1 {
+  color: black;
+  border-top-color: #ed80a1;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+body main p h2 {
+  color: black;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+body iframe {
+  width: 1280px;
+  height: 600px;
+}
+@media screen and (max-width: 980px) {
+  body #contenedor {
+    width: 90%;
+  }
+  body #contenido {
+    width: 60%;
+  }
+  body #barra_lateral {
+    width: 30%;
+  }
+}
+body header .menu {
+  background: white;
+}
+body header .btn-menu {
+  color: black;
+  font-size: 60px;
+  background-position: right;
+}
+body header .nav-link {
+  color: black;
+}
+body header .logo {
+  width: 50px;
+  height: 50px;
+}
+body main {
+  text-decoration: dashed;
+  text-align: justify;
+  font-size: 1.3rem;
+  color: rgb(16, 18, 24);
+  background-color: #f4d9e1;
+}
+body main p h1 {
+  color: black;
+  border-top-color: #ed80a1;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+body main p h2 {
+  color: black;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+body iframe {
+  width: 1280px;
+  height: 600px;
+}
+@media screen and (max-width: 980px) {
+  body #contenedor {
+    width: 90%;
+  }
+  body #contenido {
+    width: 60%;
+  }
+  body #barra_lateral {
+    width: 30%;
+  }
+}
+body header .menu {
+  background: white;
+}
+body header .btn-menu {
+  color: black;
+  font-size: 60px;
+  background-position: right;
+}
+body header .nav-link {
+  color: black;
+}
+body header .logo {
+  width: 50px;
+  height: 50px;
+}
+body main {
+  text-decoration: dashed;
+  text-align: justify;
+  font-size: 1.3rem;
+  color: rgb(16, 18, 24);
+  background-color: #f4d9e1;
+}
+body main p h1 {
+  color: black;
+  border-top-color: #ed80a1;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+body main p h2 {
+  color: black;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+body iframe {
+  width: 1280px;
+  height: 600px;
+}
+@media screen and (max-width: 980px) {
+  body #contenedor {
+    width: 90%;
+  }
+  body #contenido {
+    width: 60%;
+  }
+  body #barra_lateral {
+    width: 30%;
+  }
+}
+body header .menu {
+  background: white;
+}
+body header .btn-menu {
+  color: black;
+  font-size: 60px;
+  background-position: right;
+}
+body header .nav-link {
+  color: black;
+}
+body header .logo {
+  width: 50px;
+  height: 50px;
+}
+body main {
+  text-decoration: dashed;
+  text-align: justify;
+  font-size: 1.3rem;
+  color: rgb(16, 18, 24);
+  background-color: #f4d9e1;
+}
+body main p h1 {
+  color: black;
+  border-top-color: #ed80a1;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+}
+body main p h2 {
+  color: black;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
 * {
   margin: 0;
   padding: 0;
