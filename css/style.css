@@ -18,20 +18,27 @@ body iframe {
     width: 30%;
   }
 }
-body header .menu {
-  background: white;
+body header h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-color: black;
+  color: #ed1b5a;
+  font-weight: bold;
 }
-body header .btn-menu {
+body header div .menu {
+  background: white;
+  display: flex;
+  justify-content: right;
+}
+body header div .btn-menu {
   color: black;
   font-size: 60px;
-  background-position: right;
+  display: flex;
+  justify-content: right;
 }
-body header .nav-link {
+body header div .nav-link {
   color: black;
-}
-body header .logo {
-  width: 50px;
-  height: 50px;
+  display: flex;
+  justify-content: right;
 }
 body main {
   text-decoration: dashed;
