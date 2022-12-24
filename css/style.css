@@ -89,6 +89,92 @@ body .footer {
   margin-top: 6rem;
 }
 
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  line-height: 1.4em;
+  background-color: #f2c9d5;
+  margin: 0;
+  text-align: center;
+}
+body p {
+  margin-bottom: 1.6em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+}
+body header .header1 {
+  background: #f3789d;
+  color: black;
+  padding: 1rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+body header .header1 a {
+  color: black;
+  text-decoration: none;
+}
+body header .container1 {
+  width: 90%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+body header .logo-nav-container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .navigation1 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body header .navigation1 ul li {
+  display: inline-block;
+}
+body header .navigation1 ul li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+}
+body header .navigation1 ul li a .hover1 {
+  background: #980431;
+}
+body header .logo1 {
+  letter-spacing: 5px;
+  font-size: 1.3em;
+}
+body header h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-color: black;
+  color: #ed1b5a;
+  font-weight: bold;
+}
+body main {
+  padding-top: 1rem;
+  text-decoration: dashed;
+  text-align: justify;
+  font-size: 1.3rem;
+  line-height: 1.4em;
+  color: rgb(16, 18, 24);
+  background-color: #f4d9e1;
+}
+body main div .contenedor1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .footer1 {
+  background: #f2c9d5;
+  padding: 4rem 0;
+  text-align: center;
+  margin-top: 6rem;
+}
+
 @media screen and (max-width: 980px) {
   #contenedor {
     width: 90%;
