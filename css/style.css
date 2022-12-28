@@ -141,13 +141,6 @@ body header .navigation ul li a {
   padding: 0.5rem 1rem;
   transition: all 0.4s linear;
 }
-body header .navigation ul li a .hover {
-  background: #980431;
-}
-body header .logo {
-  letter-spacing: 5px;
-  font-size: 1.3em;
-}
 body header h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border-color: black;
@@ -168,11 +161,6 @@ body main div .contenedor {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-body main div .imagen {
-  width: 350px;
-  margin-right: 25px;
-  border-radius: 15px;
 }
 body .footer {
   background: #f2c9d5;

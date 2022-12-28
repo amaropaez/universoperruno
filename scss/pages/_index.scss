@@ -61,19 +61,13 @@ font-family:'Courier New', Courier, monospace;
                         padding: 0.5rem 1rem;
                         transition: all 0.4s linear;
 
-                        .hover {
-                            background: #980431;
-                        }
+                    
                     }
                 }
             }
         }
 
 
-        .logo {
-            letter-spacing: 5px;
-            font-size: 1.3em;
-        }
 
         h1 {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -104,11 +98,6 @@ font-family:'Courier New', Courier, monospace;
                 align-items: center;
             }
 
-            .imagen {
-                width: 350px;
-                margin-right: 25px;
-                border-radius: 15px;
-            }
         }
 
     }
